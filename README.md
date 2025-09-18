@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ### 3. Prepare the dataset
 
-## 📂 Dataset Structure
+#### 📂 Dataset Structure
 
 The dataset contains the original tactile images(from sensors on two fingers) and their corresponding ground truth force data. the structure is as follows:
 
@@ -46,7 +46,7 @@ data_normal/
 │
 └── ...
 ```
-## unzip the dataset
+#### unzip the dataset
 ```bash
 unzip data_normal.zip -d ./data/normal
 unzip data_shear.zip -d ./data/shear
@@ -54,12 +54,12 @@ unzip data_shear.zip -d ./data/shear
 
 ### 3. Run training / evaluation
 
-## Normal force estimation
+#### Normal force estimation
 ```bash
 python main_normal.py
 ```
 
-## Shear force estimation
+#### Shear force estimation
 ```bash
 python main_shear.py
 ```
