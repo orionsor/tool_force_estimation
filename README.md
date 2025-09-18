@@ -22,6 +22,7 @@ pip install -r requirements.txt
 
 The dataset contains the original tactile images(from sensors on two fingers) and their corresponding ground truth force data. the structure is as follows:
 
+```bash
 data_normal/
 │
 ├── trial1/
@@ -44,6 +45,7 @@ data_normal/
 │ └── force/
 │
 └── ...
+```
 ## unzip the dataset
 ```bash
 unzip data_normal.zip -d ./data/normal
