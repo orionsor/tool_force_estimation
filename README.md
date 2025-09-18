@@ -48,16 +48,19 @@ data_normal/
 ```bash
 unzip data_normal.zip -d ./data/normal
 unzip data_shear.zip -d ./data/shear
+```
 
 ### 3. Run training / evaluation
 
 ## Normal force estimation
 ```bash
 python main_normal.py
+```
 
 ## Shear force estimation
 ```bash
 python main_shear.py
+```
 
 
 
