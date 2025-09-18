@@ -1,0 +1,4 @@
+data_normal.zip filter=lfs diff=lfs merge=lfs -text
+data_shear.zip filter=lfs diff=lfs merge=lfs -text
+best_model_normal.pth filter=lfs diff=lfs merge=lfs -text
+best_model_shear.pth filter=lfs diff=lfs merge=lfs -text
