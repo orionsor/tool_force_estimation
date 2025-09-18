@@ -4,8 +4,6 @@ This repository provides the implementation for **Indirect Tool Force Estimation
 It supports both **normal force** and **shear force** estimation using vision-based tactile sensors.  
 
 ---
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
